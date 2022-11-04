@@ -1782,6 +1782,10 @@ button:active {
   height: auto;
 }
 
+.reviews__wrapper {
+  margin-bottom: 35px;
+}
+
 .reviews__author {
   margin-bottom: 40px;
 }
@@ -1796,10 +1800,6 @@ button:active {
   font-size: 12px;
   font-weight: 500;
   max-width: 250px;
-}
-
-.reviews__text {
-  margin-bottom: 35px;
 }
 
 .reviews__link {

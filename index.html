@@ -11,7 +11,7 @@
 	<link rel="apple-touch-icon" href="images/favicon.png">
 	<title>Процессинг24 Реализация топлива | Главная страница</title>
 
-	<link rel="stylesheet" href="css/style.min.css?_v=20221104172456">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221104173340">
 </head>
 
 <body class="body">
@@ -268,7 +268,7 @@
 			<div class="delivery-form__body">
 				<div class="delivery-form__item">
 					<label class="delivery-form__label" for="fuel">Вид топлива</label>
-					<select class="delivery-form__field delivery-form__field--select" type="text" id="fuel" name="fuel">
+					<select class="delivery-form__field delivery-form__field--select" id="fuel" name="fuel">
 						<option class="delivery-form__option" value="diessel" selected>ДТ</option>
 						<option class="delivery-form__option" value="ai95">АИ-95</option>
 					</select>
@@ -549,27 +549,31 @@
 		<div class="reviews__carousel swiper section-trigger">
 			<ul class="reviews__inner swiper-wrapper">
 				<li class="reviews__item swiper-slide">
-					<figcaption class="reviews__author">
-						<cite class="reviews__name">Гусев Вячеслав</cite>
-						<p class="reviews__job">Индивидуальный предприниматель</p>
-					</figcaption>
+					<div class="reviews__wrapper">
+						<figcaption class="reviews__author">
+							<cite class="reviews__name">Гусев Вячеслав</cite>
+							<p class="reviews__job">Индивидуальный предприниматель</p>
+						</figcaption>
 
-					<blockquote class="reviews__text">
-						<p>Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit. Etiam justo a dignissim sociis vitae, nisi, justo, feugiat.</p>
-					</blockquote>
+						<blockquote class="reviews__text">
+							<p>Velit, lectus sit urna tincidunt augue. Cursus vulputate pellentesque faucibus euismod. Diam pharetra, non, ut integer dui feugiat porttitor at. Non, dignissim enim viverra fringilla sit. Etiam justo a dignissim sociis vitae, nisi, justo, feugiat.</p>
+						</blockquote>
+					</div>
 
 					<a class="reviews__link link" href="#">Подробнее</a>
 				</li>
 
 				<li class="reviews__item swiper-slide">
-					<figcaption class="reviews__author">
-						<cite class="reviews__name">Зеленов Евгений</cite>
-						<p class="reviews__job">Гененеральный директор трансопртной компании</p>
-					</figcaption>
+					<div class="reviews__wrapper">
+						<figcaption class="reviews__author">
+							<cite class="reviews__name">Зеленов Евгений</cite>
+							<p class="reviews__job">Гененеральный директор трансопртной компании</p>
+						</figcaption>
 
-					<blockquote class="reviews__text">
-						<p>Mi auctor sit habitasse sed mi cras ullamcorper massa sed. In augue fames sodales pretium, at scelerisque. Pulvinar a mattis pharetra mi, aliquet sem tristique lorem eleifend. Nisl, scelerisque ut libero, pellentesque. Tincidunt vestibulum volutpat lacus imperdiet morbi vulputate tristique facilisi.</p>
-					</blockquote>
+						<blockquote class="reviews__text">
+							<p>Mi auctor sit habitasse sed mi cras ullamcorper massa sed. In augue fames sodales pretium, at scelerisque. Pulvinar a mattis pharetra mi, aliquet sem tristique lorem eleifend. Nisl, scelerisque ut libero, pellentesque. Tincidunt vestibulum volutpat lacus imperdiet morbi vulputate tristique facilisi.</p>
+						</blockquote>
+					</div>
 
 					<a class="reviews__link link" href="#">Подробнее</a>
 				</li>
@@ -667,7 +671,7 @@
 		</div>
 	</div>
 
-	<script src="js/script.min.js?_v=20221104172456" type="module"></script>
+	<script src="js/script.min.js?_v=20221104173340" type="module"></script>
 </body>
 
 </html>
